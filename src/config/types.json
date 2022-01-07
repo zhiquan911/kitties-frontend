@@ -1,0 +1,17 @@
+{
+  "KittyDeposit": "Balance",
+  "KittyIndex": "u64",
+  "Gender": {
+    "_enum": [
+      "Male",
+      "Female"
+    ]
+  },
+  "Kitty": {
+    "dna": "[u8; 16]",
+    "price": "Option<Balance>",
+    "gender": "Gender",
+    "owner": "AccountId",
+    "deposit": "Balance"
+  }
+}
